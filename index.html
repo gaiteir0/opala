@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opala e Omega</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Opala e Omega</h1>
+        <nav>
+            <ul>
+                <li><button onclick="showContent('opala')">Opala</button></li>
+                <li><button onclick="showContent('omega')">Omega</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="content">
+        <div id="opala" class="content-item">
+            <h2>Chevrolet Opala</h2>
+            <p>O Chevrolet Opala é um automóvel fabricado pela General Motors do Brasil entre 1968 e 1992. Foi um dos carros mais icônicos da indústria automobilística brasileira, conhecido por seu design robusto e motor potente. O Opala passou por várias mudanças ao longo dos anos, incluindo diferentes versões e motorização.</p>
+            <img src="opala.jpg" alt="Chevrolet Opala">
+        </div>
+
+        <div id="omega" class="content-item" style="display: none;">
+            <h2>Chevrolet Omega</h2>
+            <p>O Chevrolet Omega foi um sedã grande fabricado pela General Motors do Brasil entre 1992 e 1998. Considerado um carro de luxo, o Omega se destacou por seu conforto, tecnologia e motorização potente. Ele sucedeu o Opala e trouxe várias inovações para o mercado brasileiro.</p>
+            <img src="omega.jpg" alt="Chevrolet Omega">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Opala e Omega. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
